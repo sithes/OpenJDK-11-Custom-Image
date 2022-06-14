@@ -1,7 +1,7 @@
 # Red Hat OpenJDK 11 JRE with Conjur summon config image
 # The official Red Hat registry and the base image
 FROM registry.access.redhat.com/ubi8/ubi-minimal
-MAINTAINER digitalcoreteam@ocbc.com
+MAINTAINER sithes.nmc@gmail.com
 # Install OpenJDK 11
 RUN microdnf --setopt=tsflags=nodocs install -y java-11-openjdk \
 	&& rm -rf /var/cache/yum \
