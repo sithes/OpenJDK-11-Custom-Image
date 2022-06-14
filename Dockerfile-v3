@@ -28,7 +28,7 @@ ENV \
 	LANG="C.UTF-8" \
 	TZ="Asia/Singapore"
 LABEL \
-	author="digitalcoreteam@ocbc.com" \
+	author="sithes.nmc@gmail.com" \
 	com.redhat.component="openjdk-11-ubi8-container"  \
 	com.redhat.license_terms="https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI"  \
 	description="Source To Image (S2I) image for Red Hat OpenShift providing OpenJDK 11"  \
